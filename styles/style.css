@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(135deg, #0a2e4e, #f9ca24);
+  color: #fff;
+  font-family: 'Raleway', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.move-icon {
+  height: 70px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.move-button {
+  background-color: #0a2e4e;
+  color: #f9ca24;
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 18px;
+}
+
+.move-button.scissors {
+  background-color: #f9ca24;
+  color: #0a2e4e;
+}
+
+.move-button:hover {
+  background-color: #0d4a75;
+  transform: scale(1.05);
+}
+
+.result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.score {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.reset-score-button {
+  background-color: #f9ca24;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.reset-score-button:hover {
+  background-color: #d4ac0d;
+}
